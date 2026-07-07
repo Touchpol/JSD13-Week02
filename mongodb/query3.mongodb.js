@@ -1,3 +1,4 @@
+use("sample_mflix");
 //หน้า1
 db.theaters.find({ "location.address.state": "AL" }).count()
 //หน้า2

@@ -1,3 +1,4 @@
+use("sample_mflix");
 //หน้า1 ไม่ต้องใช้ "findOne" เพราะถาม how many แปลว่ามีหลาย + ใส่ ".count()" เพราะถามจำนวo
 db.movies.find({ plot; { $regex: "American", $options: "i" } }).count();
 //หน้า2
