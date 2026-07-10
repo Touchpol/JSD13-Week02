@@ -1,0 +1,50 @@
+[
+    {
+        "_id": "U001",
+        "username": "albert vinestyle",
+        "email": "albert@example.com",
+        "password_hash": "1234",
+        "role": "customer",
+        "phone": "081-111-2233",
+        "created_at": "2026-01-15T10:30:00Z",
+        "shopping_cart": {
+            "item_type": "photographer_booking",
+            "photographer_id": "PH001",
+            "selected_date": "2026-07-20",
+            "duration_hours": 3
+        }
+    },
+    {
+        "_id": "U002",
+        "username": "Chris P. bacon",
+        "email": "chris@example.com",
+        "password_hash": "1234",
+        "role": "customer",
+        "phone": "081-999-8877",
+        "created_at": "2026-02-10T09:00:00Z",
+        "shopping_cart": {
+            "item_type": "lens_rental",
+            "lens_id": "L003",
+            "start_date": "2026-07-20",
+            "end_date": "2026-07-22",
+            "rental_days": 3
+        }
+    },
+    {
+        "_id": "U003",
+        "username": "Barb E. Que",
+        "email": "bbq@example.com",
+        "password_hash": "1234",
+        "role": "customer",
+        "phone": "082-444-5566",
+        "created_at": "2026-03-05T14:00:00Z",
+        "shopping_cart": {
+            "item_type": "streamer_booking",
+            "streamer_id": "ST001",
+            "streamer_name": "GameMaster99",
+            "package_name": "3 ชั่วโมง",
+            "hours": 3,
+            "price": 1200
+        }
+    }
+]

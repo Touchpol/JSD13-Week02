@@ -1,0 +1,76 @@
+[
+    {
+        "_id": "L001",
+        "owner_id": "P001",
+        "owner_name": "Oleg Retrov",
+        "lens_name": "Jupiter-6 (Юпитер-6)",
+        "brand": "KMZ (КМЗ)",
+        "model": "Jupiter-6",
+        "origin": "USSR (รัสเซีย)",
+        "manufactured_year": 1985,
+        "condition": "Excellent - สภาพเหมือนใหม่ ไม่มีรอยขีดข่วน เลนส์ใส",
+        "category": "Portrait Prime",
+        "mount": "M42",
+        "focal_length": "135mm",
+        "aperture": {
+            "max": "f/2.8",
+            "min": "f/22"
+        },
+        "blades": 8,
+        "filter_thread_mm": 72,
+        "weight_g": 650,
+        "coating": "single coated",
+        "features": [
+            "เลนส์รัสเซียระดับตำนาน",
+            "โบเก้สวย 10 เบลด",
+            "คมชัดที่ f/4-8"
+        ],
+        "accessories_included": [
+            "ฝาหน้า-หลัง",
+            "กระเป๋าเลนส์หนังแท้",
+            "Hood โลหะ"
+        ],
+        "image_urls": {
+            "front": "jupiter-6_front.jpg",
+            "back": "jupiter-6_back.jpg",
+            "sample_photos": ["sample_portrait_01.jpg", "sample_bokeh_01.jpg"]
+        }
+    },
+    {
+        "_id": "L002",
+        "owner_id": "P002",
+        "owner_name": "Alexei Suchkov",
+        "lens_name": "Tair-3s (Таир-3с)",
+        "brand": "KMZ (КМЗ)",
+        "model": "Tair-3s",
+        "origin": "USSR (รัสเซีย)",
+        "manufactured_year": 1978,
+        "condition": "Good - รอยใช้งานเล็กน้อย เลนส์ใสไร้รอยขีดข่วน",
+        "category": "Telephoto Prime",
+        "mount": "M42",
+        "focal_length": "300mm",
+        "aperture": {
+            "max": "f/4.5",
+            "min": "f/22"
+        },
+        "blades": 8,
+        "filter_thread_mm": 82,
+        "weight_g": 980,
+        "coating": "single coated",
+        "features": [
+            "เลนส์เทเลถ่ายระยะไกล",
+            "ถ่ายนก 野生动物 และคอนเสิร์ต",
+            "โบเก้เนียนสวย"
+        ],
+        "accessories_included": [
+            "ฝาหน้า-หลัง",
+            "ขาตั้ง Tripod Collar",
+            "กระเป๋า Lens Case"
+        ],
+        "image_urls": {
+            "front": "tair-3s_front.jpg",
+            "back": "tair-3s_back.jpg",
+            "sample_photos": ["sample_wildlife_01.jpg", "sample_concert_01.jpg"]
+        }
+    }
+]

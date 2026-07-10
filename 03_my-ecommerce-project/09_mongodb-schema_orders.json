@@ -1,0 +1,103 @@
+[
+    {
+        "_id": "B001",
+        "order_type": "lens_rental",
+        "user_id": "U002",
+        "lens_id": "L003",
+        "owner_id": "P001",
+        "order_details": {
+            "start_date": "2026-07-20",
+            "end_date": "2026-07-22",
+            "rental_days": 3,
+            "lens_name": "Jupiter-6 (Юпитер-6)",
+            "pickup_method": "store",
+            "return_method": "store"
+        },
+        "pricing_calculation": {
+            "price_per_day": 500,
+            "total_days": 3,
+            "subtotal": 1500,
+            "discount": 0,
+            "insurance": { "type": "basic", "price": 100 },
+            "deposit": 8000,
+            "total_charge": 1600,
+            "currency": "THB"
+        },
+        "status": "pending",
+        "is_active": true,
+        "payment": null,
+        "timeline": [
+            { "status": "pending", "timestamp": "2026-07-17T10:00:00Z" }
+        ],
+        "created_at": "2026-07-17T10:00:00Z",
+        "updated_at": "2026-07-17T10:00:00Z"
+    },
+    {
+        "_id": "B002",
+        "order_type": "photographer_booking",
+        "user_id": "U001",
+        "photographer_id": "PH001",
+        "owner_id": null,
+        "order_details": {
+            "booking_date": "2026-07-20",
+            "duration_hours": 3,
+            "location": "สตูดิโอลูกค้า",
+            "photographer_name": "สมชาย ช่างภาพ"
+        },
+        "pricing_calculation": {
+            "hourly_rate": 1000,
+            "total_hours": 3,
+            "subtotal": 3000,
+            "discount": 0,
+            "insurance": null,
+            "deposit": 0,
+            "total_charge": 3000,
+            "currency": "THB"
+        },
+        "status": "confirmed",
+        "is_active": true,
+        "payment": {
+            "method": "promptpay",
+            "transaction_id": "txn_xyz789",
+            "paid_at": "2026-07-18T14:30:00Z"
+        },
+        "timeline": [
+            { "status": "pending", "timestamp": "2026-07-16T10:00:00Z" },
+            { "status": "confirmed", "timestamp": "2026-07-17T15:30:00Z" }
+        ],
+        "created_at": "2026-07-16T10:00:00Z",
+        "updated_at": "2026-07-17T15:30:00Z"
+    },
+    {
+        "_id": "B003",
+        "order_type": "streamer_booking",
+        "user_id": "U003",
+        "streamer_id": "ST001",
+        "owner_id": null,
+        "order_details": {
+            "package_name": "3 ชั่วโมง",
+            "hours": 3,
+            "streamer_name": "GameMaster99",
+            "booking_date": "2026-07-25",
+            "note": "เล่นเกม Araya ด้วยกัน"
+        },
+        "pricing_calculation": {
+            "package_price": 1200,
+            "total_hours": 3,
+            "subtotal": 1200,
+            "discount": 0,
+            "insurance": null,
+            "deposit": 0,
+            "total_charge": 1200,
+            "currency": "THB"
+        },
+        "status": "pending",
+        "is_active": true,
+        "payment": null,
+        "timeline": [
+            { "status": "pending", "timestamp": "2026-07-18T09:00:00Z" }
+        ],
+        "created_at": "2026-07-18T09:00:00Z",
+        "updated_at": "2026-07-18T09:00:00Z"
+    }
+]

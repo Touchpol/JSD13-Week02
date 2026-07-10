@@ -1,0 +1,54 @@
+[
+    {
+    "_id": "ST001",
+    "display_name": "GameMaster99",
+    "real_name": "Donald Duck",
+    "bio": "สตรีมเมอร์สายเกมผีตัวพ่อ! เล่นเกมมา 115 ปี พูดคุยสนุก ตลก ไม่เครียด",
+    "platforms": [
+        { "name": "YouTube", "url": "https://youtube.com/@gamemaster99", "subscribers": 350000 },
+        { "name": "TikTok", "url": "https://tiktok.com/@gamemaster99", "followers": 500000 }
+    ],
+    "games": [
+        { "name": "Araya", "hours_played": 3200 },
+        { "name": "Home Sweet Home", "hours_played": 1500 },
+        { "name": "The House", "hours_played": 800 }
+    ],
+    "packages": [
+        { "name": "1 ชั่วโมง", "hours": 1, "price": 500, "description": "เล่นเกมด้วยกัน 1 ชม. ถ่ายรูปร่วมกัน" },
+        { "name": "3 ชั่วโมง", "hours": 3, "price": 1200, "description": "เล่นเกมด้วยกัน 3 ชม. + แชทส่วนตัว 1 วัน" },
+        { "name": "5 ชั่วโมง", "hours": 5, "price": 1800, "description": "เล่นเกมด้วยกัน 5 ชม. + แชทส่วนตัว 7 วัน + ใส่ชื่อผู้เล่นบนสตรีม" }
+    ],
+    "availability": [
+        { "day": "จันทร์-พฤหัส", "time": "00:01-24:00 น." },
+        { "day": "ศุกร์-อาทิตย์", "time": "18:00-02:00 น." }
+    ],
+    "rating": 4.7,
+    "review_count": 37
+     },
+     {
+    "_id": "ST001",
+    "display_name": "GameMaster99",
+    "real_name": "Donald Duck",
+    "bio": "สตรีมเมอร์สายเกมผีตัวพ่อ! เล่นเกมมา 115 ปี พูดคุยสนุก ตลก ไม่เครียด",
+    "platforms": [
+        { "name": "YouTube", "url": "https://youtube.com/@gamemaster99", "subscribers": 350000 },
+        { "name": "TikTok", "url": "https://tiktok.com/@gamemaster99", "followers": 500000 }
+    ],
+    "games": [
+        { "name": "Araya", "hours_played": 3200 },
+        { "name": "Home Sweet Home", "hours_played": 1500 },
+        { "name": "The House", "hours_played": 800 }
+    ],
+    "packages": [
+        { "name": "1 ชั่วโมง", "hours": 1, "price": 500, "description": "เล่นเกมด้วยกัน 1 ชม. ถ่ายรูปร่วมกัน" },
+        { "name": "3 ชั่วโมง", "hours": 3, "price": 1200, "description": "เล่นเกมด้วยกัน 3 ชม. + แชทส่วนตัว 1 วัน" },
+        { "name": "5 ชั่วโมง", "hours": 5, "price": 1800, "description": "เล่นเกมด้วยกัน 5 ชม. + แชทส่วนตัว 7 วัน + ใส่ชื่อผู้เล่นบนสตรีม" }
+    ],
+    "availability": [
+        { "day": "จันทร์-พฤหัส", "time": "00:01-24:00 น." },
+        { "day": "ศุกร์-อาทิตย์", "time": "18:00-02:00 น." }
+    ],
+    "rating": 4.7,
+    "review_count": 35
+}
+]
