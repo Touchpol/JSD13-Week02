@@ -72,5 +72,119 @@
             "back": "tair-3s_back.jpg",
             "sample_photos": ["sample_wildlife_01.jpg", "sample_concert_01.jpg"]
         }
+    },
+    {
+        "_id": "L003",
+        "owner_id": "P003",
+        "owner_name": "Dmitri Volkov",
+        "lens_name": "Telemar-22A (Телемар-22А)",
+        "brand": "KMZ (КМЗ)",
+        "model": "Telemar-22A",
+        "origin": "USSR (รัสเซีย)",
+        "manufactured_year": 1982,
+        "condition": "Excellent - เลนส์ใสไร้รอยขีดข่วน ระยะซูมทำงานปกติ",
+        "category": "Telephoto Prime",
+        "mount": "M42",
+        "focal_length": "200mm",
+        "aperture": {
+            "max": "f/3.5",
+            "min": "f/22"
+        },
+        "blades": 10,
+        "filter_thread_mm": 62,
+        "weight_g": 750,
+        "coating": "single coated",
+        "features": [
+            "เลนส์เทเลพกพาสะดวก",
+            "โบเก้ 10 เบลด ละมุน",
+            "เหมาะสำหรับถ่ายภาพพอร์เทรตระยะไกล"
+        ],
+        "accessories_included": [
+            "ฝาหน้า-หลัง",
+            "ฮูดกันแสง",
+            "กระเป๋าเลนส์"
+        ],
+        "image_urls": {
+            "front": "telemar-22a_front.jpg",
+            "back": "telemar-22a_back.jpg",
+            "sample_photos": ["sample_portrait_02.jpg", "sample_tele_01.jpg"]
+        }
+    },
+    {
+        "_id": "L004",
+        "owner_id": "P004",
+        "owner_name": "Sergei Mikhailov",
+        "lens_name": "MTO-500 (МТО-500)",
+        "brand": "KMZ/LZOS (КМЗ/ЛЗОС)",
+        "model": "MTO-500",
+        "origin": "USSR (รัสเซีย)",
+        "manufactured_year": 1980,
+        "condition": "Good - รอยใช้งานเล็กน้อย กระจกใส ไม่มีฝ้า",
+        "category": "Super Telephoto Mirror",
+        "mount": "M42",
+        "focal_length": "500mm",
+        "aperture": {
+            "max": "f/8",
+            "min": "f/8"
+        },
+        "blades": 0,
+        "filter_thread_mm": 105,
+        "weight_g": 1200,
+        "coating": "mirror coated",
+        "features": [
+            "เลนส์ Mirror กระจกสะท้อนแสง",
+            "ทางยาวโฟกัส 500mm คงที่",
+            "กะทัดรัดกว่าเลนส์เทเลทั่วไป",
+            "เอกลักษณ์โบเก้รูปโดนัท"
+        ],
+        "accessories_included": [
+            "ฝาหน้า-หลัง",
+            "ตัวกรอง ND ในตัว",
+            "ขาตั้ง Tripod Collar",
+            "กระเป๋า Lens Case"
+        ],
+        "image_urls": {
+            "front": "mto-500_front.jpg",
+            "back": "mto-500_back.jpg",
+            "sample_photos": ["sample_moon_01.jpg", "sample_wildlife_02.jpg"]
+        }
+    },
+    {
+        "_id": "L005",
+        "owner_id": "P005",
+        "owner_name": "Ivan Kuznetsov",
+        "lens_name": "MTO-1000 (МТО-1000)",
+        "brand": "KMZ/LZOS (КМЗ/ЛЗОС)",
+        "model": "MTO-1000",
+        "origin": "USSR (รัสเซีย)",
+        "manufactured_year": 1983,
+        "condition": "Good - รอยใช้งานเล็กน้อย กระจกใส ไม่มีรอยขีดข่วน",
+        "category": "Super Telephoto Mirror",
+        "mount": "M42",
+        "focal_length": "1000mm",
+        "aperture": {
+            "max": "f/10",
+            "min": "f/10"
+        },
+        "blades": 0,
+        "filter_thread_mm": 130,
+        "weight_g": 2500,
+        "coating": "mirror coated",
+        "features": [
+            "เลนส์ Mirror ทางยาวโฟกัส 1000mm",
+            "ซูเปอร์เทเล ถ่ายพระจันทร์และนก",
+            "โบเก้รูปโดนัทเอกลักษณ์เฉพาะตัว"
+        ],
+        "accessories_included": [
+            "ฝาหน้า-หลัง",
+            "ตัวกรอง ND ในตัว",
+            "ขาตั้ง Tripod Collar แข็งแรง",
+            "กระเป๋า Lens Case ขนาดใหญ่"
+        ],
+        "image_urls": {
+            "front": "mto-1000_front.jpg",
+            "back": "mto-1000_back.jpg",
+            "sample_photos": ["sample_moon_02.jpg", "sample_wildlife_03.jpg"]
+        }
     }
 ]
