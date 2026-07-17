@@ -115,7 +115,7 @@ db.posts.find({ title: { $eq: "MongoDB Overview" } })
 Find documents where age is not equal to 30 in 'users' collection
 
 db.users.find({ age: { $ne: 30 } })
-In these queries, we utilize the $gt (greater than), $lt (less than), and $eq (equality) comparison operators to filter documents based on specific criteria. Additionally, we demonstrate the $ne (not equal) operator to find documents where a field does not match a specified value.
+In these queries, we utilize the $gt (greater than), $lt (less than),$gte (greater than or equal) and $eq (equality) comparison operators to filter documents based on specific criteria. Additionally, we demonstrate the $ne (not equal) operator to find documents where a field does not match a specified value.
 
 2. Logical Operators
 Find documents where age is greater than 25 AND less than 35 in 'users' collection
